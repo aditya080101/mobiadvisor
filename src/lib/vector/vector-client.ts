@@ -142,15 +142,15 @@ export class VectorClient {
   /**
    * Fallback similarity using simple string matching
    */
-  private fallbackSimilar(
+  private async fallbackSimilar(
     query: string,
     typeFilter?: 'company' | 'model'
-  ): VectorSearchResult[] {
+  ): Promise<VectorSearchResult[]> {
     const queryLower = query.toLowerCase();
     const results: VectorSearchResult[] = [];
 
     if (!typeFilter || typeFilter === 'company') {
-      const companies = getCompanies();
+      const companies = await getCompanies();
       for (const company of companies) {
         const score = this.stringSimilarity(queryLower, company.toLowerCase());
         if (score > 0.5) {
@@ -164,7 +164,7 @@ export class VectorClient {
     }
 
     if (!typeFilter || typeFilter === 'model') {
-      const phones = searchPhonesByModel(query);
+      const phones = await searchPhonesByModel(query);
       for (const phone of phones.slice(0, 5)) {
         const score = this.stringSimilarity(queryLower, phone.model_name.toLowerCase());
         results.push({
@@ -236,7 +236,7 @@ export class VectorClient {
       const index = this.pinecone.index(this.indexName);
 
       // Index companies
-      const companies = getCompanies();
+      const companies = await getCompanies();
       const companyVectors = [];
 
       for (const company of companies) {
@@ -276,7 +276,7 @@ export class VectorClient {
     try {
       const llm = getLLMClient();
       const index = this.pinecone.index(this.indexName);
-      const phones = getAllPhones();
+      const phones = await getAllPhones();
 
       // Process in batches of 10 to avoid rate limits
       const batchSize = 10;
@@ -445,7 +445,7 @@ export class VectorClient {
       for (const match of results.matches || []) {
         const phoneId = match.metadata?.id as number;
         if (phoneId) {
-          const phone = getPhoneById(phoneId);
+          const phone = await getPhoneById(phoneId);
           if (phone) {
             phones.push(phone);
           }
@@ -462,7 +462,7 @@ export class VectorClient {
   /**
    * Fallback product search using database when Pinecone is unavailable
    */
-  private fallbackProductSearch(
+  private async fallbackProductSearch(
     query: string,
     filters?: {
       maxPrice?: number;
@@ -472,7 +472,7 @@ export class VectorClient {
       company?: string;
     },
     limit: number = 5
-  ): Phone[] {
+  ): Promise<Phone[]> {
     const dbFilters: Filters = {};
 
     if (filters?.maxPrice) dbFilters.maxPrice = filters.maxPrice;
@@ -481,7 +481,7 @@ export class VectorClient {
     if (filters?.minBattery) dbFilters.minBattery = filters.minBattery;
     if (filters?.company) dbFilters.company = filters.company;
 
-    const phones = getFilteredPhones(dbFilters);
+    const phones = await getFilteredPhones(dbFilters);
     return phones.slice(0, limit);
   }
 

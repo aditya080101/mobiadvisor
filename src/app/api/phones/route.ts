@@ -18,7 +18,7 @@ export async function GET(request: NextRequest) {
     const search = searchParams.get('search') || '';
 
     // Get all phones
-    let phones = getAllPhones();
+    let phones = await getAllPhones();
 
     // Filter by search term
     if (search) {

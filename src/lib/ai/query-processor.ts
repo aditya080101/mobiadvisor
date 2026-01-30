@@ -489,7 +489,7 @@ export class QueryProcessor {
           ORDER BY user_rating DESC, price_inr ASC
           LIMIT 3
         `;
-        results = queryPhones(sql, [`%${term}%`]);
+        results = await queryPhones(sql, [`%${term}%`]);
         if (results.length > 0) {
           break;
         }
@@ -563,7 +563,7 @@ export class QueryProcessor {
           ORDER BY user_rating DESC 
           LIMIT 1
         `;
-        results = queryPhones(sql, [`%${alias}%`]);
+        results = await queryPhones(sql, [`%${alias}%`]);
         if (results.length > 0) {
           break;
         }
@@ -578,7 +578,7 @@ export class QueryProcessor {
           ORDER BY user_rating DESC 
           LIMIT 1
         `;
-        results = queryPhones(sql, [`%${company}%`, `%${model}%`]);
+        results = await queryPhones(sql, [`%${company}%`, `%${model}%`]);
       }
 
       // Strategy 3: Direct model search (broader)
@@ -589,7 +589,7 @@ export class QueryProcessor {
           ORDER BY user_rating DESC 
           LIMIT 1
         `;
-        results = queryPhones(sql, [`%${model}%`]);
+        results = await queryPhones(sql, [`%${model}%`]);
       }
 
       // Strategy 4: Galaxy prefix for Samsung models
@@ -600,7 +600,7 @@ export class QueryProcessor {
           ORDER BY user_rating DESC 
           LIMIT 1
         `;
-        results = queryPhones(sql, [`%galaxy ${model}%`]);
+        results = await queryPhones(sql, [`%galaxy ${model}%`]);
       }
 
       // Strategy 5: iPhone prefix for Apple models
@@ -611,7 +611,7 @@ export class QueryProcessor {
           ORDER BY user_rating DESC 
           LIMIT 1
         `;
-        results = queryPhones(sql, [`%iphone ${model}%`]);
+        results = await queryPhones(sql, [`%iphone ${model}%`]);
       }
 
       if (results.length > 0) {
@@ -661,7 +661,7 @@ export class QueryProcessor {
     // Step 2: Fallback to SQL generation
     try {
       const sql = await this.llm.generateSQL(intent, filters);
-      const phones = queryPhones(sql);
+      const phones = await queryPhones(sql);
 
       if (phones.length > 0) {
         return phones;
@@ -671,7 +671,7 @@ export class QueryProcessor {
     }
 
     // Step 3: Final fallback to filter-based query
-    return getFilteredPhones(filters);
+    return await getFilteredPhones(filters);
   }
 }
 
