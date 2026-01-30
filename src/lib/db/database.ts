@@ -6,6 +6,9 @@ import { Phone, Filters, FiltersMetadata } from '@/types';
 // Singleton database instance
 let dbInstance: Database.Database | null = null;
 
+// Check if running in production/serverless environment
+const isServerless = process.env.VERCEL || process.env.AWS_LAMBDA_FUNCTION_NAME;
+
 /**
  * Get or create the database instance
  */
@@ -13,17 +16,22 @@ export function getDatabase(): Database.Database {
   if (!dbInstance) {
     const dbPath = path.join(process.cwd(), 'data', 'mobiles_india.db');
 
-    // Create data directory if it doesn't exist
-    const dataDir = path.dirname(dbPath);
-    if (!fs.existsSync(dataDir)) {
-      fs.mkdirSync(dataDir, { recursive: true });
+    // In serverless (Vercel), open as readonly since filesystem is read-only
+    if (isServerless) {
+      dbInstance = new Database(dbPath, { readonly: true, fileMustExist: true });
+    } else {
+      // Create data directory if it doesn't exist (local development)
+      const dataDir = path.dirname(dbPath);
+      if (!fs.existsSync(dataDir)) {
+        fs.mkdirSync(dataDir, { recursive: true });
+      }
+
+      dbInstance = new Database(dbPath);
+      dbInstance.pragma('journal_mode = WAL');
+
+      // Initialize database if it doesn't have data
+      initializeDatabase(dbInstance);
     }
-
-    dbInstance = new Database(dbPath);
-    dbInstance.pragma('journal_mode = WAL');
-
-    // Initialize database if it doesn't have data
-    initializeDatabase(dbInstance);
   }
 
   return dbInstance;
