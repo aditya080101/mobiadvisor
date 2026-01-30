@@ -43,6 +43,7 @@ next-env.d.ts
 *.swp
 *.swo
 
-# database
-*.db
+# database (but allow data folder db for deployment)
 *.sqlite
+# Allow the data folder db to be committed
+!data/*.db
