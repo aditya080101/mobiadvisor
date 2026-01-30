@@ -1,26 +1,211 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 255, 253, 250;
+  --background-end-rgb: 254, 252, 248;
+  /* Warm light mode colors */
+  --warm-bg: #FFFDF8;
+  --warm-bg-secondary: #FFF9F0;
+  --warm-border: #F5E6D3;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--warm-bg);
+  color: #111827;
+  font-feature-settings: "rlig" 1, "calt" 1;
+}
+
+/* Warm light mode utility classes */
+.light-warm-bg {
+  background-color: var(--warm-bg);
+}
+
+.light-warm-secondary {
+  background-color: var(--warm-bg-secondary);
+}
+
+/* Custom scrollbar - Light mode */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f3f4f6;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af;
+}
+
+/* Custom scrollbar - Dark mode */
+.dark ::-webkit-scrollbar-track,
+[data-theme="dark"] ::-webkit-scrollbar-track {
+  background: #374151;
+}
+
+.dark ::-webkit-scrollbar-thumb,
+[data-theme="dark"] ::-webkit-scrollbar-thumb {
+  background: #6b7280;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover,
+[data-theme="dark"] ::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af;
+}
+
+/* Chat message prose styles */
+.prose {
+  font-size: 0.875rem;
+  line-height: 1.625;
+}
+
+.prose strong {
+  font-weight: 600;
+}
+
+.prose em {
+  font-style: italic;
+}
+
+.prose a {
+  color: #7c3aed;
+}
+
+.prose a:hover {
+  color: #6d28d9;
+  text-decoration: underline;
+}
+
+.prose ul {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.prose ol {
+  list-style-type: decimal;
+  list-style-position: inside;
+}
+
+.prose h3 {
+  font-weight: 700;
+  font-size: 1.125rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.prose h4 {
+  font-weight: 600;
+  margin-top: 0.75rem;
+  margin-bottom: 0.25rem;
+}
+
+.prose p {
+  margin-bottom: 0.5rem;
+}
+
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.prose th,
+.prose td {
+  border: 1px solid #e5e7eb;
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+}
+
+.prose th {
+  background: #f9fafb;
+  font-weight: 600;
+}
+
+/* Dark mode prose tables */
+.prose-invert table {
+  background: #1f2937;
+}
+
+.prose-invert th,
+.prose-invert td {
+  border: 1px solid #4b5563;
+  color: #e5e7eb;
+}
+
+.prose-invert th {
+  background: #374151;
+  color: #f3f4f6;
+  font-weight: 600;
+}
+
+.prose-invert td {
+  background: #1f2937;
+}
+
+.prose-invert tr:nth-child(even) td {
+  background: #111827;
+}
+
+/* Gradient text */
+.gradient-text {
+  background: linear-gradient(to right, #7c3aed, #4f46e5);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Hide scrollbar but keep functionality */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Glassmorphism */
+.glass {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(12px);
+}
+
+/* Animation utilities */
+.animate-fade-in {
+  animation: fadeIn 0.3s ease-out;
+}
+
+.animate-slide-up {
+  animation: slideUp 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

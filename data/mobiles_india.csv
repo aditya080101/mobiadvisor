@@ -1,0 +1,141 @@
+Company Name,Model Name,Processor,Launched Year,User Rating.1,User Review.1,User Camera Rating,User Battery Life Rating,User Design Rating,User Display Rating,User Performance Rating,Memory (GB),Mobile Weight (g),RAM (GB),Front Camera (MP),Back Camera (MP),Battery Capacity (mAh),Launched Price (INR),Screen Size (inches)
+apple,iphone 16 128gb,A17 Bionic,2024,4.8,Excellent for watching movies and games.,4.0,4.5,4.3,3.8,4.1,128,174.0,6.0,12.0,48.0,3600,79999,6.1
+apple,iphone 16 256gb,A17 Bionic,2024,4.8,Excellent for portability and performance.,4.3,3.8,4.5,4.7,3.8,256,174.0,6.0,12.0,48.0,3600,84999,6.1
+apple,iphone 16 512gb,A17 Bionic,2024,5.0,Unmatched performance and camera.,4.2,4.5,3.8,4.2,4.7,512,174.0,6.0,12.0,48.0,3600,89999,6.1
+apple,iphone 16 plus 128gb,A17 Bionic,2024,4.4,Best for professionals and creators.,4.6,4.6,4.2,4.1,4.8,128,203.0,6.0,12.0,48.0,4200,89999,6.7
+apple,iphone 16 plus 256gb,A17 Bionic,2024,4.4,Large screen and long battery life.,4.9,4.4,4.8,4.7,4.7,256,203.0,6.0,12.0,48.0,4200,94999,6.7
+apple,iphone 16 plus 512gb,A17 Bionic,2024,4.4,Great for users who prefer small phones.,4.5,4.2,4.7,4.3,4.6,512,203.0,6.0,12.0,48.0,4200,104999,6.7
+apple,iphone 16 pro 128gb,A17 Pro,2024,5.0,Excellent for watching movies and games.,4.2,5.0,4.4,4.7,4.3,128,206.0,6.0,12.0,50.0,4400,99999,6.1
+apple,iphone 16 pro 256gb,A17 Pro,2024,4.4,Perfect for watching videos and gaming.,4.9,4.6,4.2,4.4,4.3,256,206.0,8.0,12.0,50.0,4400,104999,6.1
+apple,iphone 16 pro 512gb,A17 Pro,2024,4.4,Best for power users and creators.,4.0,4.2,4.1,4.8,4.9,512,206.0,8.0,12.0,50.0,4400,114999,6.1
+apple,iphone 16 pro max 128gb,A17 Pro,2024,4.7,Best for professionals and creators.,4.8,4.6,4.2,4.6,4.2,128,221.0,6.0,12.0,48.0,4500,109999,6.7
+apple,iphone 16 pro max 256gb,A17 Pro,2024,4.4,Top-notch storage and speed. Perfect for power users.,4.8,4.3,4.4,3.7,4.5,256,221.0,8.0,12.0,48.0,4500,114999,6.7
+apple,iphone 16 pro max 512gb,A17 Pro,2024,4.8,Best for professionals and creators.,4.5,4.3,4.5,4.7,4.8,512,221.0,8.0,12.0,48.0,4500,124999,6.7
+apple,iphone 15 128gb,A16 Bionic,2023,4.4,Professional features in a compact size.,4.0,4.1,4.0,4.5,5.0,128,171.0,6.0,12.0,48.0,3200,74999,6.1
+apple,iphone 15 256gb,A16 Bionic,2023,4.9,Fantastic display and battery.,3.9,4.6,4.3,4.4,4.6,256,171.0,6.0,12.0,48.0,3200,79999,6.1
+apple,iphone 15 512gb,A16 Bionic,2023,4.4,Perfect for watching videos and gaming.,4.6,4.4,4.6,4.8,4.4,512,171.0,6.0,12.0,48.0,3200,89999,6.1
+apple,iphone 15 plus 128gb,A16 Bionic,2023,5.0,Great value and reliable battery.,4.5,4.6,4.2,4.3,4.3,128,203.0,6.0,12.0,48.0,4300,84999,6.7
+apple,iphone 15 plus 256gb,A16 Bionic,2023,4.4,Premium features and excellent camera.,4.4,4.4,4.2,3.8,4.3,256,203.0,6.0,12.0,48.0,4300,94999,6.7
+apple,iphone 15 plus 512gb,A16 Bionic,2023,4.2,Smooth performance and decent camera.,4.8,4.2,4.3,4.8,4.5,512,203.0,6.0,12.0,48.0,4300,104999,6.7
+apple,iphone 15 pro 128gb,A16 Bionic,2023,4.5,Excellent storage and smooth operation.,2.7,2.7,2.7,2.7,2.7,128,206.0,6.0,12.0,48.0,4400,99999,6.1
+apple,iphone 15 pro 256gb,A16 Bionic,2023,4.2,Big screen good battery nice design.,2.7,2.7,2.7,2.7,2.7,256,206.0,8.0,12.0,48.0,4400,109999,6.1
+apple,iphone 15 pro 512gb,A16 Bionic,2023,4.7,Superb performance ideal for professionals.,2.7,2.7,2.7,2.7,2.7,512,206.0,8.0,12.0,48.0,4400,119999,6.1
+apple,iphone 15 pro max 128gb,A16 Bionic,2023,5.0,Large screen and long battery life.,4.3,4.2,3.9,4.4,4.6,128,221.0,6.0,12.0,48.0,4500,114999,6.7
+apple,iphone 15 pro max 256gb,A16 Bionic,2023,4.6,Unmatched performance and features.,4.2,4.8,4.1,4.5,4.5,256,221.0,8.0,12.0,48.0,4500,124999,6.7
+apple,iphone 15 pro max 512gb,A16 Bionic,2023,4.6,Big screen good battery nice design.,4.4,4.8,4.4,5.0,4.2,512,221.0,8.0,12.0,48.0,4500,134999,6.7
+samsung,galaxy s24 ultra 128gb,Exynos 2400,2024,5.0,Premium features and excellent camera.,5.0,4.8,4.4,4.6,4.4,128,234.0,12.0,12.0,200.0,5000,104900,6.8
+samsung,galaxy s24 ultra 256gb,Exynos 2400,2024,4.4,Fantastic display and battery.,4.7,4.4,4.6,4.0,4.1,256,234.0,12.0,12.0,200.0,5000,114900,6.8
+samsung,galaxy s24+ 128gb,Exynos 2400,2024,5.0,Large screen and long battery life.,2.7,2.7,2.7,2.7,2.7,128,196.0,8.0,12.0,50.0,4800,89900,6.6
+samsung,galaxy s24+ 256gb,Exynos 2400,2024,4.2,Top-notch storage and speed. Perfect for power users.,2.7,2.7,2.7,2.7,2.7,256,196.0,8.0,12.0,50.0,4800,99900,6.6
+samsung,galaxy s24 128gb,Exynos 2400,2024,4.6,Premium build and top-tier specs.,2.7,2.7,2.7,2.7,2.7,128,168.0,8.0,12.0,50.0,4000,79900,6.1
+samsung,galaxy s24 256gb,Exynos 2400,2024,4.6,Big screen good battery nice design.,2.7,2.7,2.7,2.7,2.7,256,168.0,8.0,12.0,50.0,4000,89900,6.1
+samsung,galaxy s23 ultra 128gb,Snapdragon 8 Gen 2,2023,4.4,Premium features and excellent camera.,4.6,4.4,4.6,4.5,4.5,128,228.0,12.0,12.0,200.0,5000,99900,6.8
+samsung,galaxy s23 ultra 256gb,Snapdragon 8 Gen 2,2023,4.5,Smooth user experience great display but a bit pricey.,4.8,4.2,4.1,4.1,4.4,256,228.0,12.0,12.0,200.0,5000,109900,6.8
+samsung,galaxy s23+ 128gb,Snapdragon 8 Gen 2,2023,4.8,Excellent for photography and gaming.,4.4,4.1,4.3,4.8,4.6,128,196.0,8.0,12.0,50.0,4700,79900,6.6
+samsung,galaxy s23+ 256gb,Snapdragon 8 Gen 2,2023,4.3,Reliable and easy to use. Good value.,4.3,4.2,3.9,4.6,4.8,256,196.0,8.0,12.0,50.0,4700,89900,6.6
+samsung,galaxy s23 128gb,Snapdragon 8 Gen 2,2023,4.5,Professional features in a compact size.,4.5,4.4,4.6,4.4,4.2,128,168.0,8.0,12.0,50.0,3900,69900,6.1
+samsung,galaxy s23 256gb,Snapdragon 8 Gen 2,2023,4.8,Great for heavy users and multitasking.,4.3,4.7,4.3,4.7,4.2,256,168.0,8.0,12.0,50.0,3900,79900,6.1
+samsung,galaxy z fold 5 256gb,Snapdragon 8 Gen 2,2023,5.0,Excellent for watching movies and games.,4.8,4.5,4.2,4.8,4.5,256,254.0,12.0,10.0,50.0,4400,154900,7.6
+samsung,galaxy z fold 5 512gb,Snapdragon 8 Gen 2,2023,5.0,Smooth performance and decent camera.,4.6,4.6,4.3,4.7,4.8,512,254.0,12.0,10.0,50.0,4400,174900,7.6
+samsung,galaxy z flip 5 256gb,Snapdragon 8 Gen 2,2023,4.9,Huge display and top performance.,4.6,4.3,3.8,4.1,4.6,256,187.0,8.0,12.0,12.0,3700,94900,6.7
+samsung,galaxy z flip 5 512gb,Snapdragon 8 Gen 2,2023,4.9,Outstanding camera and premium build quality.,3.8,4.1,4.1,4.0,4.5,512,187.0,8.0,12.0,12.0,3700,104900,6.7
+samsung,galaxy a54 128gb,Exynos 1380,2023,4.2,Excellent for watching movies and games.,4.2,3.8,3.7,4.1,4.3,128,189.0,6.0,32.0,50.0,5000,27999,6.4
+samsung,galaxy a54 256gb,Exynos 1380,2023,4.4,Excellent performance and camera. Battery lasts all day.,4.5,3.8,3.9,3.9,3.9,256,189.0,6.0,32.0,50.0,5000,32999,6.4
+samsung,galaxy a34 128gb,MediaTek Dimensity 1080,2023,4.4,Big screen and battery. Great for media consumption.,4.1,4.1,4.1,4.1,4.1,128,199.0,6.0,13.0,48.0,5000,22999,6.6
+samsung,galaxy a34 256gb,MediaTek Dimensity 1080,2023,4.3,Impressive battery life and smooth performance.,4.5,4.4,3.8,4.0,4.3,256,199.0,6.0,13.0,48.0,5000,27999,6.6
+samsung,galaxy a24 128gb,MediaTek Helio G99,2023,4.7,Best for professionals and creators.,3.3,3.7,3.5,4.2,3.1,128,195.0,6.0,13.0,50.0,5000,19999,6.5
+samsung,galaxy a24 256gb,MediaTek Helio G99,2023,4.4,Excellent for portability and performance.,4.0,4.1,3.5,3.9,4.0,256,195.0,6.0,13.0,50.0,5000,24999,6.5
+samsung,galaxy a14 128gb,Exynos 850,2023,4.9,Big screen and battery. Great for media consumption.,3.3,3.3,3.6,3.4,4.2,128,190.0,4.0,13.0,50.0,5000,18499,6.6
+samsung,galaxy m54 128gb,Exynos 1380,2023,4.8,Large screen and long battery life.,4.0,3.7,4.5,3.5,4.2,128,202.0,8.0,32.0,108.0,6000,23999,6.7
+samsung,galaxy m54 256gb,Exynos 1380,2023,4.6,Unmatched performance and features.,4.1,3.9,3.9,4.3,4.2,256,202.0,8.0,32.0,108.0,6000,26999,6.7
+samsung,galaxy m34 128gb,Exynos 1280,2023,4.8,Great value and reliable battery.,4.0,4.0,3.5,3.8,4.3,128,199.0,6.0,13.0,50.0,6000,17999,6.5
+samsung,galaxy m34 256gb,Exynos 1280,2023,4.9,Best for power users and creators.,4.4,3.5,4.0,4.2,3.7,256,199.0,6.0,13.0,50.0,6000,20999,6.5
+oneplus,oneplus 12 256gb,Snapdragon 8 Gen 3,2024,4.4,Smooth user experience great display but a bit pricey.,2.7,2.7,2.7,2.7,2.7,256,205.0,12.0,32.0,50.0,5000,74999,6.7
+oneplus,oneplus 12r 256gb,Snapdragon 8 Gen 2,2024,5.0,Unmatched performance and camera.,4.6,4.8,4.3,4.2,4.3,256,203.0,12.0,16.0,50.0,4500,49999,6.7
+oneplus,oneplus 11 256gb,Snapdragon 8 Gen 1,2023,4.6,Unmatched performance and camera.,4.6,4.3,4.7,4.5,4.5,256,205.0,12.0,16.0,50.0,5000,54999,6.7
+oneplus,oneplus 11r 256gb,Snapdragon 8 Gen 1,2023,4.8,Best for power users and creators.,2.7,2.7,2.7,2.7,2.7,256,202.0,12.0,16.0,50.0,5000,44999,6.7
+oneplus,oneplus nord 3 256gb,MediaTek Dimensity 9000,2023,4.4,Amazing display and battery backup.,2.7,2.7,2.7,2.7,2.7,256,190.0,12.0,16.0,50.0,5000,34999,6.74
+oneplus,oneplus nord ce 3 128gb,Snapdragon 782G,2023,4.4,Top-notch storage and speed. Perfect for power users.,4.5,4.7,4.1,4.3,5.0,128,179.0,8.0,16.0,50.0,5000,22999,6.72
+oneplus,oneplus nord ce 3 lite 128gb,Snapdragon 695,2023,4.6,Excellent performance and camera. Battery lasts all day.,4.5,3.6,4.0,4.3,4.6,128,195.0,8.0,16.0,108.0,5000,17999,6.72
+oneplus,oneplus open 256gb,Snapdragon 8 Gen 2,2024,4.5,Excellent for watching movies and games.,4.4,4.5,4.2,4.8,4.7,256,238.0,16.0,32.0,48.0,4800,74999,7.8
+oneplus,oneplus 10 pro 256gb,Snapdragon 8 Gen 1,2022,4.4,Unmatched performance and camera.,4.7,4.7,4.4,4.2,4.2,256,200.0,12.0,32.0,50.0,5000,64999,6.7
+google,pixel 8 128gb,Google Tensor G3,2023,4.3,Smooth user experience great display but a bit pricey.,2.7,2.7,2.7,2.7,2.7,128,187.0,8.0,10.5,50.0,4575,69999,6.2
+google,pixel 8 pro 256gb,Google Tensor G3,2023,4.9,Outstanding camera and premium build quality.,4.3,4.7,4.9,4.8,4.4,256,213.0,12.0,10.5,50.0,5050,99999,6.7
+google,pixel 8a 128gb,Google Tensor G3,2024,4.7,Big screen and battery. Great for media consumption.,4.2,3.9,3.9,4.2,4.2,128,194.0,8.0,10.5,64.0,4385,49999,6.1
+google,pixel 9 128gb,Google Tensor G4,2024,4.2,Great value and reliable battery.,4.4,4.0,4.1,4.2,4.4,128,195.0,8.0,10.8,50.0,4600,74999,6.3
+google,pixel 9 pro 256gb,Google Tensor G4,2024,4.8,Big screen and battery. Great for media consumption.,4.6,4.2,4.2,4.1,4.3,256,216.0,12.0,10.8,50.0,5050,109999,6.7
+google,pixel 9 pro xl 512gb,Google Tensor G4,2024,4.4,Professional features in a compact size.,4.2,4.6,4.2,4.7,4.4,512,222.0,16.0,10.8,50.0,5250,129999,6.8
+google,pixel 7 128gb,Google Tensor G2,2022,5.0,Unmatched performance and features.,4.4,5.0,4.8,4.7,4.4,128,197.0,8.0,10.8,50.0,4355,64999,6.3
+google,pixel 7 pro 256gb,Google Tensor G2,2022,4.5,Premium features and excellent camera.,4.1,4.3,4.2,4.5,4.7,256,212.0,12.0,10.8,50.0,5000,89999,6.7
+google,pixel 7a 128gb,Google Tensor G2,2023,4.5,Large screen and long battery life.,2.7,2.7,2.7,2.7,2.7,128,193.0,8.0,10.8,64.0,4385,44999,6.1
+xiaomi,xiaomi 14 256gb,Snapdragon 8 Gen 3,2023,4.3,Big screen good battery nice design.,4.1,4.7,3.9,4.5,4.6,256,189.0,12.0,32.0,50.0,4610,74999,6.36
+xiaomi,xiaomi 14 512gb,Snapdragon 8 Gen 3,2023,5.0,Fantastic display and battery.,4.2,4.7,4.8,4.1,4.7,512,189.0,12.0,32.0,50.0,4610,84999,6.36
+xiaomi,xiaomi 14 pro 256gb,Snapdragon 8 Gen 3,2023,4.9,Large screen and long battery life.,4.9,4.5,4.4,4.1,4.3,256,206.0,12.0,32.0,50.0,5000,84999,6.73
+xiaomi,xiaomi 14 pro 512gb,Snapdragon 8 Gen 3,2023,4.2,Premium build and top-tier specs.,4.3,4.5,4.6,4.2,4.4,512,206.0,12.0,32.0,50.0,5000,94999,6.73
+xiaomi,redmi note 14 pro+ 5g 128gb,Snapdragon 7s Gen 3,2024,4.9,Superb performance ideal for professionals.,4.7,4.3,4.3,4.9,4.7,128,205.0,8.0,16.0,200.0,5110,29999,6.67
+xiaomi,redmi note 14 pro+ 5g 256gb,Snapdragon 7s Gen 3,2024,4.5,Best for entertainment and productivity.,4.3,4.8,4.3,4.2,4.7,256,205.0,12.0,16.0,200.0,5110,32999,6.67
+xiaomi,redmi note 14 pro 5g 128gb,MediaTek Dimensity 7300-Ultra,2024,4.7,Great value and reliable battery.,4.0,4.4,4.2,4.2,4.3,128,195.0,8.0,16.0,108.0,5500,27999,6.67
+xiaomi,redmi note 14 pro 5g 256gb,MediaTek Dimensity 7300-Ultra,2024,4.9,Big screen and battery. Great for media consumption.,4.8,4.8,4.2,4.3,4.0,256,195.0,12.0,16.0,108.0,5500,30999,6.67
+xiaomi,redmi note 14 5g 128gb,MediaTek Dimensity 7025-Ultra,2024,4.5,Amazing display and battery backup.,4.0,4.4,4.3,4.9,4.5,128,185.0,6.0,16.0,50.0,5000,21999,6.67
+xiaomi,redmi note 14 5g 256gb,MediaTek Dimensity 7025-Ultra,2024,4.5,Great for users who prefer small phones.,3.5,4.3,3.8,3.6,3.9,256,185.0,8.0,16.0,50.0,5000,24999,6.67
+vivo,x200 128gb,Dimensity 9400,2024,4.9,Superb performance ideal for professionals.,4.5,4.8,4.2,4.6,4.4,128,223.0,12.0,32.0,50.0,6000,119999,6.78
+vivo,x200 256gb,Dimensity 9400,2024,5.0,Great for everyday use.,4.5,4.3,4.7,4.6,4.8,256,223.0,12.0,32.0,50.0,6000,129999,6.78
+vivo,x200 pro 256gb,Dimensity 9400,2024,4.3,Amazing display and battery backup.,4.1,4.6,4.4,4.8,4.7,256,223.0,16.0,32.0,200.0,6000,139999,6.78
+vivo,v40e 128gb,Snapdragon 778G,2024,4.8,Professional features in a compact size.,4.2,4.4,3.3,4.2,4.1,128,179.0,8.0,44.0,64.0,4100,44999,6.44
+vivo,y200 gt 128gb,Dimensity 1200,2024,5.0,Fantastic display and battery.,4.0,4.6,3.6,4.4,4.3,128,190.0,12.0,16.0,64.0,5000,39999,6.58
+vivo,iqoo 12 256gb,Snapdragon 8 Gen 3,2024,4.4,Excellent for portability and performance.,4.5,5.0,4.6,4.7,4.1,256,210.0,16.0,16.0,50.0,5000,64999,6.78
+oppo,find n3 512gb,Snapdragon 8 Gen 2,2023,4.5,Best for power users and creators.,4.2,4.6,4.3,3.6,4.6,512,239.0,12.0,32.0,48.0,4805,159999,7.82
+oppo,find n3 flip 256gb,MediaTek Dimensity 9200,2023,4.4,Premium features and excellent camera.,4.7,5.0,4.3,4.1,4.8,256,198.0,12.0,32.0,50.0,4300,109999,6.8
+oppo,find x8 pro 256gb,Snapdragon 8 Gen 2,2024,4.8,Great for heavy users and multitasking.,4.3,4.5,4.8,4.6,4.2,256,210.0,12.0,32.0,50.0,5000,139999,6.8
+oppo,find x8 256gb,Snapdragon 8 Gen 2,2024,4.2,Top-notch storage and speed. Perfect for power users.,4.8,4.3,4.0,4.3,4.1,256,195.0,8.0,32.0,50.0,4800,119999,6.7
+oppo,reno12 pro 512gb,MediaTek Dimensity 8200,2024,4.4,Big screen good battery nice design.,4.8,4.3,4.7,4.6,4.4,512,190.0,12.0,32.0,50.0,4600,64999,6.74
+oppo,reno12 256gb,MediaTek Dimensity 7050,2024,4.8,Outstanding camera and premium build quality.,4.4,3.6,4.2,3.8,4.0,256,185.0,8.0,32.0,50.0,5000,49999,6.7
+oppo,reno11 pro 512gb,MediaTek Dimensity 8200,2024,4.3,Big screen and battery. Great for media consumption.,4.8,4.3,4.4,4.2,4.7,512,190.0,12.0,32.0,50.0,4600,59999,6.74
+realme,gt 7 pro 128gb,Qualcomm Snapdragon 8 Elite,2024,4.5,Amazing display and battery backup.,4.2,4.2,4.5,4.3,4.1,128,222.8,12.0,16.0,50.0,6500,59999,6.78
+realme,gt 7 pro 256gb,Qualcomm Snapdragon 8 Elite,2024,4.2,Large screen and long battery life.,4.3,4.5,4.5,4.5,4.0,256,222.8,16.0,16.0,50.0,6500,65999,6.78
+realme,gt 6 128gb,Qualcomm Snapdragon 8s Gen 3,2023,4.5,Large screen and long battery life.,3.5,4.0,4.0,3.6,3.6,128,191.0,8.0,32.0,50.0,5500,37999,6.78
+realme,gt 6 256gb,Qualcomm Snapdragon 8s Gen 3,2023,4.3,Huge display and top performance.,4.0,4.0,3.7,4.4,4.1,256,191.0,12.0,32.0,50.0,5500,39999,6.78
+realme,13 pro+ 5g 256gb,Qualcomm Snapdragon 7+ Gen 2,2024,5.0,Fantastic display and battery.,4.2,4.1,4.3,4.6,4.3,256,195.0,12.0,32.0,50.0,5500,34999,6.78
+realme,13 pro 5g 128gb,Qualcomm Snapdragon 7s Gen 2,2024,4.9,Large screen and long battery life.,4.7,4.4,4.5,4.2,4.9,128,192.0,8.0,16.0,50.0,5200,27999,6.7
+realme,13+ 5g 128gb,MediaTek Dimensity 7200,2024,5.0,Unmatched performance and camera.,3.8,4.1,3.5,4.2,3.6,128,185.0,8.0,16.0,50.0,5000,22999,6.5
+realme,p2 pro 5g 256gb,Qualcomm Snapdragon 7+ Gen 3,2024,4.3,Premium build and top-tier specs.,4.7,3.9,4.1,4.1,4.6,256,188.0,12.0,32.0,50.0,5500,32999,6.78
+realme,narzo 70 turbo 5g 128gb,MediaTek Dimensity 810,2024,4.9,Smooth performance and decent camera.,3.8,3.6,3.9,3.9,3.6,128,200.0,8.0,16.0,50.0,5000,19999,6.6
+poco,f6 128gb,Snapdragon 8 Gen 2,2024,5.0,Excellent for photography and gaming.,4.4,4.1,4.2,3.0,4.4,128,190.0,6.0,20.0,64.0,5000,34999,6.67
+poco,f6 pro 256gb,Snapdragon 8+ Gen 2,2024,4.4,Compact and easy to carry. Good for one-handed use.,4.4,4.4,4.0,4.5,4.2,256,210.0,8.0,20.0,108.0,5160,44999,6.67
+poco,x6 128gb,MediaTek Dimensity 8100,2024,4.2,Huge display and top performance.,4.5,3.8,3.9,3.3,4.0,128,193.0,6.0,16.0,64.0,5000,21999,6.67
+poco,x6 pro 256gb,MediaTek Dimensity 8300,2024,4.3,Superb performance ideal for professionals.,4.6,4.4,4.5,4.4,4.1,256,205.0,8.0,20.0,108.0,5000,24999,6.67
+poco,x7 128gb,MediaTek Dimensity 8200,2025,4.7,Best for entertainment and productivity.,3.8,4.5,3.8,4.2,4.5,128,195.0,6.0,16.0,64.0,5000,22999,6.67
+poco,x7 pro 256gb,MediaTek Dimensity 8400,2025,4.8,Amazing display and battery backup.,4.8,4.5,4.3,4.8,4.7,256,207.0,8.0,20.0,108.0,6000,27999,6.67
+motorola,edge 50 fusion 128gb,Snapdragon 7 Gen 1,2024,4.4,Great value and reliable battery.,4.1,4.3,4.3,4.1,3.7,128,168.0,8.0,32.0,50.0,5000,29999,6.7
+motorola,edge 50 pro 128gb,Snapdragon 7 Gen 3,2024,4.9,Impressive battery life and smooth performance.,4.5,4.4,4.1,4.4,4.7,128,186.0,8.0,50.0,50.0,4500,34999,6.7
+motorola,razr 128gb,Snapdragon 8+ Gen 1,2023,4.9,Smooth performance and decent camera.,4.4,4.5,4.5,4.8,4.1,128,192.0,8.0,32.0,50.0,3500,59999,6.7
+motorola,razr 50 ultra 512gb,Snapdragon 8+ Gen 1,2024,4.7,Large screen and long battery life.,3.6,4.2,4.0,4.0,4.8,512,189.0,12.0,32.0,50.0,4000,99999,6.9
+motorola,moto g85 128gb,Snapdragon 6s Gen 3,2024,4.3,Impressive battery life and smooth performance.,3.8,4.0,4.0,4.1,4.1,128,173.0,8.0,32.0,50.0,5000,29999,6.67
+motorola,edge 50 ultra 512gb,Snapdragon 8 Gen 3,2024,4.7,Perfect for watching videos and gaming.,4.1,4.8,4.6,4.6,4.9,512,198.0,12.0,60.0,200.0,5000,119999,6.9
+nothing,phone 2a 128gb,MediaTek Dimensity 7200 Pro,2024,4.6,Great for everyday use.,4.2,4.3,4.4,4.4,4.3,128,190.0,8.0,32.0,50.0,5000,23999,6.7
+nothing,phone 2a 256gb,MediaTek Dimensity 7200 Pro,2024,4.8,Excellent for photography and gaming.,4.5,4.4,4.3,4.2,4.5,256,190.0,12.0,32.0,50.0,5000,27999,6.7
+nothing,phone 2 128gb,Snapdragon 8+ Gen 1,2023,4.7,Premium features and excellent camera.,4.5,4.6,4.4,4.5,4.6,128,201.0,8.0,32.0,50.0,4700,44999,6.7
+nothing,phone 2 256gb,Snapdragon 8+ Gen 1,2023,4.9,Outstanding camera and premium build quality.,4.6,4.5,4.3,4.4,4.8,256,201.0,12.0,32.0,50.0,4700,49999,6.7
+nothing,phone 1 128gb,Snapdragon 778G+,2022,4.5,Big screen and battery. Great for media consumption.,4.3,4.2,4.5,4.4,4.2,128,193.5,8.0,16.0,50.0,4500,32999,6.55
+nothing,phone 1 256gb,Snapdragon 778G+,2022,4.8,Best for power users and creators.,4.4,4.3,4.4,4.3,4.5,256,193.5,12.0,16.0,50.0,4500,37999,6.55
+iqoo,12 256gb,Snapdragon 8 Gen 3,2024,4.8,Premium build and top-tier specs.,4.5,4.6,4.4,4.5,4.7,256,205.0,12.0,16.0,50.0,5000,52999,6.78
+iqoo,12 512gb,Snapdragon 8 Gen 3,2024,4.9,Great for heavy users and multitasking.,4.6,4.5,4.3,4.6,4.8,512,205.0,16.0,16.0,50.0,5000,59999,6.78
+iqoo,neo 9 pro 128gb,Snapdragon 8 Gen 2,2024,4.7,Excellent for photography and gaming.,4.3,4.4,4.2,4.4,4.5,128,190.0,8.0,16.0,50.0,5000,36999,6.78
+iqoo,neo 9 pro 256gb,Snapdragon 8 Gen 2,2024,4.8,Outstanding camera and premium build quality.,4.5,4.3,4.4,4.3,4.6,256,190.0,12.0,16.0,50.0,5000,39999,6.78
+iqoo,z9 turbo 128gb,Snapdragon 8s Gen 3,2024,4.6,Great value and reliable battery.,4.2,4.4,4.1,4.3,4.4,128,195.0,8.0,16.0,50.0,6000,27999,6.78
+iqoo,z9 turbo 256gb,Snapdragon 8s Gen 3,2024,4.7,Excellent for watching movies and games.,4.4,4.3,4.2,4.4,4.5,256,195.0,12.0,16.0,50.0,6000,29999,6.78
+tecno,phantom v fold2 512gb,MediaTek Dimensity 9200+,2024,4.9,Great for users who prefer small phones.,4.6,4.4,4.5,4.4,4.6,512,280.0,12.0,32.0,64.0,5500,169999,7.85
+tecno,camon 30 premier 512gb,MediaTek Dimensity 9200,2024,4.9,Large screen and long battery life.,4.8,4.6,4.1,4.7,4.9,512,210.0,12.0,50.0,108.0,5200,89999,6.9
+tecno,spark 30 pro 256gb,MediaTek Helio G99,2024,4.7,Smooth performance and decent camera.,4.7,4.4,4.4,4.0,4.2,256,205.0,8.0,32.0,50.0,5200,19999,6.8
+infinix,gt 20 pro,MediaTek Dimensity 8200,2024,4.5,Unmatched performance and camera.,4.3,4.5,4.5,4.6,4.0,0,198.0,12.0,32.0,108.0,5500,32999,6.9
+infinix,note 40 pro 5g,MediaTek Dimensity 9000,2024,4.3,Reliable and easy to use. Good value.,5.0,4.6,4.6,4.6,4.5,0,195.0,12.0,32.0,108.0,5300,27999,6.8
+infinix,zero 40 5g,MediaTek Dimensity 8200,2024,4.6,Ultimate device for power users.,4.0,4.0,3.7,3.6,4.6,0,195.0,12.0,50.0,108.0,5000,27999,6.78
+honor,magic6 pro,Qualcomm Snapdragon 8 Gen 3,2024,4.7,Solid performance and camera for the price.,4.6,4.0,4.4,4.3,4.3,0,219.0,12.0,12.0,50.0,5500,109999,6.81
+honor,magic v2,Qualcomm Snapdragon 8 Gen 2,2024,4.5,Compact and easy to carry. Good for one-handed use.,4.6,4.6,4.5,4.2,4.9,0,231.0,12.0,16.0,50.0,5000,159999,7.92
+honor,90 pro,Qualcomm Snapdragon 8+ Gen 1,2023,4.7,Ultimate device for power users.,4.4,4.5,3.6,4.6,3.9,0,192.0,12.0,50.0,200.0,5000,64999,6.78
+huawei,pura 70 pro,Kirin 9010,2024,4.5,Big screen and battery. Great for media consumption.,5.0,4.8,4.5,4.7,4.2,0,220.0,12.0,13.0,50.0,5050,99999,6.8
+huawei,mate 60 pro,Kirin 9000S,2023,4.8,Excellent performance and camera. Battery lasts all day.,4.2,4.7,4.4,4.5,4.3,0,225.0,12.0,13.0,50.0,5000,129999,6.82
+nokia,g42 5g 128gb,Snapdragon 480+,2023,4.8,Excellent storage and smooth operation.,4.1,3.2,3.2,3.5,4.0,128,193.0,4.0,8.0,50.0,5000,18999,6.56
+sony,xperia 1 vi 256gb,Snapdragon 8 Gen 3,2024,4.7,Smooth user experience great display but a bit pricey.,4.0,4.2,4.0,4.5,4.4,256,190.0,12.0,12.0,48.0,5000,129999,6.5
+sony,xperia 5 vi 128gb,Snapdragon 8 Gen 3,2024,4.3,Premium build and top-tier specs.,4.0,4.5,4.3,4.3,4.7,128,180.0,8.0,12.0,48.0,5000,99999,6.1
+lenovo,legion y70 256gb,Snapdragon 8+ Gen 1,2022,4.6,Excellent for watching movies and games.,4.4,4.3,4.3,4.5,4.2,256,209.0,12.0,16.0,50.0,5100,54999,6.67
