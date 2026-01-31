@@ -175,7 +175,7 @@ export default function Home() {
           {!sidebarCollapsed && (
             <div className="flex items-center gap-1">
               <a
-                href="https://github.com"
+                href="https://github.com/aditya080101/mobiadvisor"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={cn(

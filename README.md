@@ -36,7 +36,7 @@ An intelligent mobile phone shopping assistant powered by OpenAI GPT-4. Ask ques
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/mobiadvisor.git
+   git clone https://github.com/aditya080101/mobiadvisor.git
    cd mobiadvisor
    ```
 
