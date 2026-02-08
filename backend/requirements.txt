@@ -1,0 +1,14 @@
+django>=5.0
+djangorestframework>=3.15
+django-cors-headers>=4.3
+openai>=1.12
+pinecone-client>=3.0
+python-dotenv>=1.0
+gunicorn>=21.0
+
+# LangChain & LangGraph
+langchain>=0.3.0
+langchain-openai>=0.2.0
+langgraph>=0.2.0
+langchain-community>=0.3.0
+pydantic>=2.0
